@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom";
 // const heading = React.createElement('h1', {
 //     id: "heading"
 // }, "Hello World from React!");
@@ -32,12 +34,8 @@
 //</div>
 // Siblings can be passed as array (h1, h2);
 
-const parent = React.createElement("div", { id: 'parent' }, 
-    React.createElement("div", { id: 'child' },
-        [React.createElement("h1", { },'Hasrsha'), 
-            React.createElement("h2", { },'Hasrsha')
-        ]
-        ));
+const parent = React.createElement("div", { id: 'parent' }, 'Hasrsha');
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(parent);
+// ReactDOM.createRoot(document.getElementById('root')).render(parent);
+// ReactDOM.render(<App />, document.getElementById("root"));

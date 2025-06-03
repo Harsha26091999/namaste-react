@@ -1,0 +1,27 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "react app",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harsha26091999/namaste-react.git"
+  },
+  "author": "Harsha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harsha26091999/namaste-react/issues"
+  },
+  "homepage": "https://github.com/Harsha26091999/namaste-react#readme",
+  "dependencies": {
+    "parcel": "^2.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {},
+  "browsersList": [
+    "last 2 versions"
+  ]
+}
